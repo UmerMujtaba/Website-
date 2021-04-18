@@ -1,13 +1,13 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: #61122f;
+  background-color: #ce1212;
   font-family: 'Oxygen', sans-serif;
 }
 
 /** HEADER **/
 #header-nav {
-  background-color: #f6b319;
+  background-color: #fff;
   border-radius: 0;
   border: 0;
 }
@@ -153,6 +153,23 @@ body {
   color: #fff;
   opacity: .8;
 }
+
+
+/* About Page */
+#About-title {
+	font-style: italic;
+	font-family: 'Lora', serif;
+}
+#About-title + div {
+margin-bottom: 50px;
+}
+#About-title section{
+	text-align: center;
+}
+#abt-tile div{
+	margin-bottom: 20px;
+	text-align: center;
+}
 /* END HOME PAGE */
 
 /* MENU CATEGORIES PAGE */
@@ -183,6 +200,11 @@ body {
 
 #menu-categories-title + div { /* div inside menu-categories.html */
 	margin-bottom: 50px;
+	
+}
+#menu-categories-title {
+	font-style: italic;
+	font-family: 'Lora', serif;
 }
 /* END MENU CATEGORIES PAGE */
 
